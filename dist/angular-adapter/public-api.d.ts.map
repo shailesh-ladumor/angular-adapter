@@ -1,0 +1,1 @@
+{"version":3,"file":"public-api.d.ts","sourceRoot":"","sources":["../../projects/angular-adapter/src/public-api.ts"],"names":[],"mappings":"AAAA;;GAEG;AAEH,OAAO,EACL,gBAAgB,EAChB,iBAAiB,EACjB,2BAA2B,EAC5B,MAAM,eAAe,CAAC;AAEvB,cAAc,+BAA+B,CAAC;AAC9C,cAAc,iCAAiC,CAAC;AAChD,cAAc,kBAAkB,CAAC;AAEjC,OAAO,EAAE,gBAAgB,EAAE,iBAAiB,EAAE,2BAA2B,EAAE,CAAC"}

@@ -1,0 +1,56 @@
+{
+  "name": "@flatfile/angular",
+  "version": "3.1.1",
+  "homepage": "https://flatfile.com/",
+  "description": "Angular flatfile adapter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FlatFilers/angular-adapter.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlatFilers/angular-adapter/issues"
+  },
+  "author": {
+    "name": "Mark Pieszak"
+  },
+  "keywords": [
+    "flatfile",
+    "flatfile angular",
+    "angular",
+    "csv",
+    "angular csv",
+    "angular csv import"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0",
+    "@angular/core": "^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0"
+  },
+  "dependencies": {
+    "@flatfile/sdk": "1.0.5",
+    "tslib": "^2.0.0"
+  },
+  "module": "fesm2015/flatfile-angular.mjs",
+  "es2020": "fesm2020/flatfile-angular.mjs",
+  "esm2020": "esm2020/flatfile-angular.mjs",
+  "fesm2020": "fesm2020/flatfile-angular.mjs",
+  "fesm2015": "fesm2015/flatfile-angular.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/flatfile-angular.mjs",
+      "es2020": "./fesm2020/flatfile-angular.mjs",
+      "es2015": "./fesm2015/flatfile-angular.mjs",
+      "node": "./fesm2015/flatfile-angular.mjs",
+      "default": "./fesm2020/flatfile-angular.mjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}
